@@ -18,6 +18,9 @@ class Food(Turtle):
         self.goto(random_x, random_y)
 
     def refresh(self):
+        """
+        Generates a new position for food every time the user hits the previous one
+        """
         random_x = random.randint(-((self.screen_width * 0.5) - 20), ((self.screen_width * 0.5) - 20))
         random_y = random.randint(-((self.screen_height * 0.5) - 20), ((self.screen_height * 0.5) - 20))
         self.goto(random_x, random_y)
