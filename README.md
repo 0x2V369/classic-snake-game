@@ -21,6 +21,7 @@ The Snake game involves controlling a snake to eat food that appears on the scre
 - **`snake.py`**: Handles the snake's movement and growth.
 - **`food.py`**: Manages the food generation and placement on the screen.
 - **`score_board.py`**: Handles the scoring system and score tracking/displaying.
+- **`data.txt`**: Keeps the all-time highest achieved score in the game.
 - **`README.md`**: This file provides an overview of the project.
 - **`LICENSE`**: The license file for the project.
 
