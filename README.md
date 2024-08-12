@@ -9,7 +9,7 @@ The Snake game involves controlling a snake to eat food that appears on the scre
 
 ## How to Play
 
-1. **Start the Game**: Run the `snake_game.py` file to launch the game.
+1. **Start the Game**: Run the `main.py` file to launch the game.
 2. **Controls**:
    - Use the arrow keys to control the snake's direction.
    - Avoid colliding with the walls or the snake's body.
@@ -17,7 +17,7 @@ The Snake game involves controlling a snake to eat food that appears on the scre
 
 ## Files in the Repository
 
-- **`snake_game.py`**: The main entry point of the game, containing the game loop and event handling.
+- **`main.py`**: The main entry point of the game, containing the game loop and event handling.
 - **`snake.py`**: Handles the snake's movement and growth.
 - **`food.py`**: Manages the food generation and placement on the screen.
 - **`score_board.py`**: Handles the scoring system and score tracking/displaying.
@@ -41,7 +41,7 @@ The Snake game involves controlling a snake to eat food that appears on the scre
 
 3. Run the game:
    ```bash
-   python snake_game.py
+   python main.py
    ```
 
 ## License
